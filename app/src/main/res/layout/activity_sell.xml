@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SellActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/sellDate"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="@drawable/search_view_background"
+                app:queryHint="Search sell name"
+                android:drawableStart="@drawable/ic_date"
+                android:drawablePadding="20dp"
+                android:drawableTint="#595454"
+                android:padding="8dp"
+                app:iconifiedByDefault="false"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:hint="Sell date"
+                android:editable="false"
+                />
+            <Button
+                android:id="@+id/btnSellClearDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_button"
+                android:layout_marginLeft="70dp"
+                android:text="Clear"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="List of selled drinks"
+                android:textStyle="bold"
+                android:textSize="@dimen/_13ssp"
+                android:textColor="@color/purple_700"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/sellDeleteAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_all"
+                android:textSize="@dimen/_13ssp"
+                android:textColor="@color/snackbar_danger"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rclvSellList"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="520dp"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnSellAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/purple_500"
+        android:contentDescription="Touch to add new sell"
+        android:src="@drawable/ic_add"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/white" />
+</androidx.constraintlayout.widget.ConstraintLayout>

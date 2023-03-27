@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_white_corner_16"
+    android:orientation="horizontal"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/unitItemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUnitItemEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        app:icon="@drawable/ic_edit"
+        android:padding="0dp"
+        app:iconPadding="0dp"
+        app:iconTint="@color/grey_corner"
+        android:background="@android:color/transparent"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUnitItemDelete"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        app:icon="@drawable/ic_delete"
+        android:padding="0dp"
+        app:iconPadding="0dp"
+        app:iconTint="@color/grey_corner"
+        android:background="@android:color/transparent"/>
+
+
+
+</LinearLayout>

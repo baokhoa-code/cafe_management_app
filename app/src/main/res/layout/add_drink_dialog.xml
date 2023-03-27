@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_corner_16"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Enter drink information"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/bg_yellow_corner_16_top_left"/>
+
+    <FrameLayout
+        android:id="@+id/newDrinkLayoutImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/newDrinkImage"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:background="@drawable/background_image"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/newDrinkTextAddImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add image"
+            android:textColor="@color/grey_corner"
+            android:textSize="@dimen/_11ssp"/>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/newDrinkName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:hint="Drink name"
+        android:background="@drawable/bg_white_corner_10_border_gray"/>
+
+    <Spinner
+        android:id="@+id/newDrinkUnit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:padding="12dp"
+        android:background="@drawable/bg_white_corner_10_border_gray"/>
+
+    <EditText
+        android:id="@+id/newDrinkManufacture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:hint="Drink manufacture"
+        android:background="@drawable/bg_white_corner_10_border_gray"/>
+
+    <EditText
+        android:id="@+id/newDrinkDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:padding="12dp"
+        android:lines="6"
+        android:minLines="4"
+        android:gravity="top|start"
+        android:scrollbars="vertical"
+        android:hint="Drink description"
+        android:textAlignment="textStart"
+        android:background="@drawable/bg_white_corner_10_border_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnnewDrinkNameCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/grey_corner"
+            android:textColor="@color/black"
+            android:text="Cancel"/>
+        <Button
+            android:id="@+id/btnnewDrinkNameOk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/black"
+            android:text="OK"/>
+    </LinearLayout>
+
+</LinearLayout>

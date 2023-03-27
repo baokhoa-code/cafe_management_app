@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#64C3FF</color>
+    <color name="purple_500">#21A1F3</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="snackbar_success">#198754</color>
+    <color name="snackbar_infor">#0dcaf0</color>
+    <color name="snackbar_warning">#ffc107</color>
+    <color name="snackbar_danger">#dc3545</color>
+    <color name="colorPrimary">#21A1F3</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="icon_background">#AEE1C7C7</color>
+    <color name="yellow">#21A1F3</color>
+    <color name="grey_corner">#938D8D</color>
+    <color name="background_image_color">#ECECEC</color>
+    <color name="unit_price">#9f62b1</color>
+    <color name="total_price">#e56362</color>
+    <color name="total_price_lo">#e56362</color>
+    <color name="total_price_loi">#198754</color>
+    <color name="total_price_hue">#faca6d</color>
+    <color name="transparent">#00000000</color>
+</resources>

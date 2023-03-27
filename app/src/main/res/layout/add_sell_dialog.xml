@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_corner_16"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Enter sell information"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/bg_yellow_corner_16_top_left"/>
+
+    <Spinner
+        android:id="@+id/newSellDrink"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:padding="12dp"
+        android:background="@drawable/bg_white_corner_10_border_gray"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bg_white_corner_10_border_gray"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/newSellQuantity"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:hint="Enter quantity"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+            />
+        <TextView
+            android:id="@+id/newSellUnit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:paddingEnd="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bg_white_corner_10_border_gray"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/newSellUnitPrice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:hint="Enter unit Price"
+            android:inputType="number"
+            android:textColor="@color/unit_price"
+            android:background="@android:color/transparent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:paddingEnd="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/unit_price"
+            android:text="000 VNĐ"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnnewSellCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/grey_corner"
+            android:textColor="@color/black"
+            android:text="Cancel"/>
+        <Button
+            android:id="@+id/btnnewSellOk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/black"
+            android:text="OK"/>
+    </LinearLayout>
+
+</LinearLayout>

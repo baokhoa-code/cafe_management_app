@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "51398973627",
+    "project_id": "cafe-management-application",
+    "storage_bucket": "cafe-management-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51398973627:android:7f66dfc5be1275a925f19e",
+        "android_client_info": {
+          "package_name": "com.example.cafemanagementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51398973627-5p4j0a8js6msfmer76tkafkbcqckj0fs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cafemanagementapp",
+            "certificate_hash": "9ad2207c07acdf8526d3eabfd5ad253ce9818746"
+          }
+        },
+        {
+          "client_id": "51398973627-0gr6q2u0ur7621au4h0ba49am6d65e2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6iSgC8ajIdHfwIkojq6sdz9orD2-6Euw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51398973627-0gr6q2u0ur7621au4h0ba49am6d65e2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

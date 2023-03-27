@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CafeManagementApp</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="new_user_sign_up"><u>New User? Sign up</u></string>
+    <string name="already_have_an_account_sign_in"><u>Already have an account? Sign in</u></string>
+    <string name="delete_all"><u>Delete all</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

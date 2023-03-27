@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cafemanagementapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CafeManagementApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.SummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DrinkDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.StoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RevenueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SellActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ImportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DrinkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.UnitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.UpdateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
